@@ -1,0 +1,7 @@
+.separator {
+    width: 4em;
+    height: 5px !important;
+    margin: 0 auto;
+    margin-top: .8em;
+    opacity: 1;
+}

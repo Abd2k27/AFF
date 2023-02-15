@@ -1,0 +1,32 @@
+.ceoSection h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.ceoSection h2 hr {
+    height: 5px;
+    width: 3em;
+    opacity: 1;
+    color: var(--primary-color);
+}
+
+.ceoSection h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-block: 1em;
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.block {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('/section.jpg');
+    background-size: cover;
+    margin-block: 0;
+    padding-block: 5em;
+}
+
+.block * {
+    color: white;
+}

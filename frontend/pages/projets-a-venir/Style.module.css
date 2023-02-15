@@ -1,0 +1,42 @@
+.ceoSection h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.ceoSection h2 hr {
+    height: 5px;
+    width: 3em;
+    opacity: 1;
+    color: var(--primary-color);
+    margin: 0 auto;
+    margin-block: 1em;
+}
+
+.ceoSection h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-block: 1em;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.projectTitle {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.projectTitle hr {
+    height: 5px;
+    width: 3em;
+    opacity: 1;
+    color: var(--primary-color);
+}
+
+.background {
+    background: url('/projets.jpg');
+    background-size: cover;
+}

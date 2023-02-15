@@ -1,0 +1,120 @@
+/* .text{
+    font-size: 35px;
+} */
+
+@media screen and (max-width: 480px) {
+    .content{
+        font-size: 25px;
+    }
+    .title{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: var(--primary-color);
+    }
+    .second{
+        font-size: 25px;
+        line-height: 32px;
+        font-weight:300;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .title{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: var(--primary-color);
+        font-size: 38px;
+    }
+    .content{
+        font-size: 28px;
+    }
+    .second{
+        font-size: 28px;
+        line-height: 32px;
+        font-weight:300;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .title{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: var(--primary-color);
+        font-size: 45px;
+    }
+    .content{
+        font-size: 35px;
+    }
+    .second{
+        font-size: 35px;
+        line-height: 43px;
+        font-weight:300;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+    .title{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: var(--primary-color);
+        font-size: 55px;
+    }
+    .content{
+        font-size: 45px;
+    }
+    .second{
+        font-size: 40px;
+        line-height: 55px;
+        font-weight:600;
+    }
+}
+@media screen and (min-width: 1601px) {
+    .title{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: var(--primary-color);
+        font-size: 60px;
+    }
+    .content{
+        font-size: 50px;
+    }
+    .second{
+        font-size: 45px;
+        line-height: 67px;
+        font-weight:600;
+    }
+}
+/* @media screen and (max-width: 720px) {
+    .text{
+        font-size: 30px;
+    }
+    .second{
+        font-size: 35px;
+        line-height: 42px;
+        font-weight:600;
+    }
+} */
+/* @media screen and (min-width: 900px) {
+    .text{
+        font-size: 35px;
+    }
+    .second{
+        font-size: 40px;
+        line-height: 52px;
+        font-weight:600;
+    }
+} */
+/* @media screen and (min-width: 721px) {
+    .text{
+        font-size: 35px;
+    }
+    .second{
+        font-size: 35px;
+        line-height: 42px;
+        font-weight:600;
+    }
+
+} */

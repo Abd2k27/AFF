@@ -1,0 +1,38 @@
+.sliderContainer {
+    padding-inline: 20em;
+    margin-block: 8em;
+}
+
+.partnersSliderCard {
+    margin-inline: 4em;
+    border: none;
+}
+
+.sliderCard,
+.partnersSliderCard {
+    border-radius: 0;
+    background: none;
+}
+
+.sliderCard:hover .sliderCardDescription,
+.partnersSliderCard:hover .sliderCardDescription {
+    opacity: .8;
+}
+
+.sliderCard img,
+.partnersSliderCard img {
+    border-radius: 0;
+}
+
+.separator {
+    width: 4em;
+    height: 5px !important;
+    margin: 0 auto;
+    margin-top: .8em;
+    opacity: 1;
+}
+
+.adsSlider {
+    height: 600px;
+    position: relative;
+}

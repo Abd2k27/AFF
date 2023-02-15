@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root {
+    --primary-color: #0070cc;
+    --primary-color-darker: #012752;
+}
+
+html {
+    scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    font-family: 'Montserrat' !important;
+    background: url('/bg1.jpg');
+    /* background: url('/bg.jpg'); */
+    background-size: cover;
+}
+
+.sectionTitle {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.sectionTitle hr {
+    width: 2em;
+    height: 5px !important;
+    margin: 0 auto;
+    margin-top: .8em;
+    opacity: 1;
+}
+
+.mainCarousel .carousel-control-next,
+.mainCarousel .carousel-control-prev,
+.projectCarousel .carousel-control-next,
+.projectCarousel .carousel-control-prev {
+    display: none;
+}
+
+.mainCarousel .carousel-indicators {
+    display: none;
+}
+
+.mainCarousel .carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    opacity: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #d4d7da;
+    display: none;
+}
+
+.projectCarousel .carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    opacity: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #d4d7da;
+    display: none;
+}
+
+.projectCarousel .carousel-indicators {
+    left: auto;
+    margin-inline: 1em;
+}
+
+.mainCarousel .carousel-indicators .active,
+.projectCarousel .carousel-indicators .active {
+    background-color: var(--primary-color);
+}
+
+.slick-prev:before,
+.slick-next:before {
+    /*color: var(--primary-color) !important;
+    font-size: 1.8rem !important;
+    line-height: 0 !important;*/
+    display: none;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    height: 11px !important;
+    width: 11px !important;
+    opacity: 100% !important;
+    border: 1px solid var(--primary-color-darker) !important;
+    border-radius: 50px !important;
+    background-color: #d4d7da !important;
+    color: white !important;
+    font-size: 0px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    background-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+
+.infinite-scroll-component {
+    overflow: hidden !important;
+}
+
+#presentation-nav-dropdown,
+#projets-nav-dropdown,
+#partenaires-nav-dropdown,
+#ressources-nav-dropdown,
+#evennements-nav-dropdown,
+#contact-nav-dropdown {
+    color: black
+}
+
+#presentation-nav-dropdown::after,
+#projets-nav-dropdown::after,
+#partenaires-nav-dropdown::after,
+#ressources-nav-dropdown::after,
+#evennements-nav-dropdown::after,
+#contact-nav-dropdown::after {
+    display: none;
+    margin-top: 0;
+}
+
+#presentation-nav-dropdown:hover,
+#projets-nav-dropdown:hover,
+#partenaires-nav-dropdown:hover,
+#ressources-nav-dropdown:hover,
+#evennements-nav-dropdown:hover,
+#contact-nav-dropdown:hover {
+    color: var(--primary-color);
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 80% !important;
+    margin-top: 0 !important;
+}
+
+.dropdown-menu .dropdown-item {
+    background-color: white !important;
+    font-weight: bold !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--primary-color) !important;
+}
+
+.dropdown-menu .dropdown-item::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 2px;
+    margin-top: .3em;
+    transition: width .3s ease-in-out;
+    display: block;
+    width: 0;
+}
+
+.dropdown-menu .dropdown-item:hover::after {
+    width: 100%;
+}
+
+.dropdown a {
+    color: black !important;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropdown a::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 2px;
+    margin-top: .3em;
+    transition: width .3s ease-in-out;
+    display: block;
+    width: 0;
+}
+
+.dropdown a:hover {
+    color: var(--primary-color) !important;
+}
+
+.dropdown a:hover::after {
+    width: 100%;
+}
+
+.sectitle{
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}

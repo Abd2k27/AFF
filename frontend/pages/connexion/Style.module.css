@@ -1,0 +1,17 @@
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.title hr {
+    width: 2em;
+    height: 5px !important;
+    margin-top: .8em;
+    opacity: 1;
+}
+
+.right {
+    background: url('/po-bg.jpg');
+    background-size: cover;
+}

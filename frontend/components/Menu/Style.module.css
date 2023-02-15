@@ -1,0 +1,40 @@
+.menuItem {
+    color: black !important;
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menuItem::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 2px;
+    margin-top: .3em;
+    transition: width .3s ease-in-out;
+    display: block;
+    width: 0;
+}
+
+.menuItem:hover {
+    color: var(--primary-color) !important;
+}
+
+.menuItem:hover::after {
+    width: 100%;
+}
+
+.menuItemActive {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menuItemActive::after {
+    content: "";
+    background-color: var(--primary-color);
+    height: 2px;
+    margin-top: .3em;
+    transition: width .3s ease-in-out;
+    display: block;
+}

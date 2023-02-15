@@ -1,0 +1,105 @@
+.block {
+    height: 100%;
+    /*display: flex;*/
+    align-items: center;
+    width: 100%;
+}
+
+.blockLeft {
+    width: 100%;
+    height: 700px;
+    background: url('/vision.png');
+    background-size: cover;
+    background-color: var(--primary-color);
+}
+
+.blockRight {
+    position: relative;
+    top: -700px;
+    left: 280px;
+    width: 40%;
+    height: 0px;
+    background-color: var(--primary-color);
+    z-index: 2;
+}
+
+.blockText {
+    color: white;
+    position: absolute;
+    left: -300px;
+    top: 10px;
+    padding: 3em;
+    background-color: var(--primary-color);
+    height: 700px;
+    width: 400px;
+}
+
+
+/*.blockText::before {
+    content: "";
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    background: white;
+    top: -21px;
+    left: -21px;
+}*/
+
+
+/*.blockText::after {
+    content: "";
+    position: absolute;
+    height: 92px;
+    width: 92px;
+    background: white;
+    bottom: -46px;
+    right: -46px;
+    z-index: -1;
+}
+*/
+
+.blockText h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blockText h2 hr {
+    height: 5px;
+    width: 3em;
+    opacity: 1;
+}
+
+.blockText h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-block: .5em;
+}
+
+.blockText p {
+    margin-bottom: 0;
+}
+
+.network h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.network h2 hr {
+    height: 5px;
+    width: 3em;
+    opacity: 1;
+}
+
+.network h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-block: 1em;
+}
+
+.statistiques {
+    background: url('/a-propos.jpg');
+    background-size: cover;
+    padding-block: 3em;
+}

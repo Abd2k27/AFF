@@ -1,0 +1,73 @@
+.sliderCard {
+    border-radius: 0;
+    background: none;
+}
+
+.sliderCard img {
+    border-radius: 0;
+}
+
+.sliderCard:hover .sliderCardDescription {
+    opacity: .8;
+}
+
+.sliderCardDescription {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    color: white;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    width: 100%;
+    padding-block: 1em;
+}
+
+
+/* .first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 8em;
+    position: absolute;
+    float: inline-start;
+} */
+
+.block {
+    background: url('/pole.jpeg');
+    /* height: 2090px; */
+    margin-block: 0.5em;
+    background-size: cover;
+    position: relative;
+    /* position:unset; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block2 {
+    position: relative;
+    top: 500px;
+}
+
+.back {
+    /* background: url('/pole.jpeg'); */
+    /* height: 2090px; */
+    /* margin-block: 16em; */
+    margin-top: 16em;
+    /* background-size: cover; */
+    /* position: relative; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.block>div:first-child {
+    position: absolute;
+    width: 80%;
+    /*top: -3em;*/
+    background-color: #0D212B;
+    top: -250px;
+    z-index: 2;
+}
